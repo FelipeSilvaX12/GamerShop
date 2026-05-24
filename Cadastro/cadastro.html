@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamerShop</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="global.css">
+</head>
+
+<body>
+
+
+
+    <nav>
+        <a href="../Cadastro/cadastro.html">cadastro</a>
+        <a href="../detalhes/detalhes.html">detalhes</a>
+        <a href="../EsqueceuSenha/EsqueceuSenha.html">Esqueceu Senha</a>
+        <a href="../listagem/listagem.html">Listagem</a>
+        <a href="../Login/login.html">Login</a>
+        <a href="../resumo/resumo.html">Resumo</a>
+    </nav>
+
+    <div class="cadastro">
+
+        <div class="img-cadastro">
+            <img src="../imagens/undraw_annotations_2xx4.svg" alt="">
+
+        </div>
+
+
+        <main>
+
+            <Header>
+                <h1> Gamer shop</h1>
+            </Header>
+
+
+            <h2> Cadastro </h2>
+            <form onsubmit="alert('cadastro eftetuado')">
+
+
+                <h3>Coloque seus dados abaixo e finalize seu cadastro :</h3>
+
+                <p>
+                    <input required type="text" placeholder="Nome">
+                </p>
+
+                <p>
+
+                    <input required type="email" placeholder="Email">
+
+                </p>
+                <p>
+
+                    <input required type="password" placeholder="Senha">
+                </p>
+
+                <p>
+                    <input required type="number" placeholder="CPF">
+                </p>
+
+                <p>
+                    <input required type="text" placeholder="Endereço">
+                </p>
+
+                <p>
+                    <input required type="number" placeholder="Numero de telefone">
+                </p>
+
+                <p>
+                    <input required type="text" placeholder="Metodo de pagamento">
+                </p>
+
+                <p>
+
+
+                    <label class="opcao-genero">
+
+                        <strong>Sexo :</strong>
+
+                        <input type="radio" name="genero" value="masculino">
+                        <span class="botao-customizado"></span>
+                        Masculino
+                    </label>
+
+                    <label class="opcao-genero">
+                        <input type="radio" name="genero" value="feminino">
+                        <span class="botao-customizado"></span>
+                        Feminino
+                    </label>
+
+                    <label class="opcao-genero">
+                        <input type="radio" name="genero" value="outro">
+                        <span class="botao-customizado"></span>
+                        Outro
+                    </label>
+
+
+
+
+                </p>
+                <div id="finalizar">
+
+                    <button type="submit">
+
+                        <a href="../Login/login.html">Finalizar</a>
+
+                    </button>
+
+                </div>
+    </div>
+
+
+    </main>
+
+
+    </div>
+
+   
+
+</body>
+
+</html>

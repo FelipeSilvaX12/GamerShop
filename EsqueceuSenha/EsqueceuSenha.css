@@ -1,0 +1,254 @@
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+button {
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+button:hover {
+
+    background-color: brown;
+}
+
+nav {
+    background-color: rgb(157 175 255 / 50%);
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+body {
+
+
+    padding: 10px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(68 62 88);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.esqueceu {
+
+    gap: 10px;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(157 175 255 / 50%);
+
+}
+
+.img-esqueceu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: NONE;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    padding: 5px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 5px rgb(139, 46, 245);
+    font-size: xx-large;
+    margin-bottom: 30px;
+    color: rgb(19, 1, 1);
+    -webkit-text-stroke: 0.1px white;
+}
+
+button {
+    border-radius: 5px;
+    background-color: black;
+    cursor: pointer;
+}
+
+button:hover {
+
+    background-color: brown;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px rgb(0, 0, 0);
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+
+
+
+@media (min-width:768px) {
+
+    .esqueceu {
+
+        gap: 10px;
+        padding: 3rem;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgb(0, 0, 0);
+        width: 80%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(157 175 255 / 50%);
+
+    }
+
+    nav {
+
+        background-color: rgb(157 175 255 / 50%);
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 8px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 8px;
+        margin-bottom: 10px;
+
+    }
+
+    .img-esqueceu {
+
+        width: 80%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+
+    }
+
+    img {
+        max-width: 500px;
+        max-height: 500px;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-family: fantasy;
+        padding: 5px;
+        border-radius: 12px;
+        box-shadow: 1px 1px 5px rgb(139, 46, 245);
+        font-size: xx-large;
+        margin-bottom: 30px;
+        color: rgb(19, 1, 1);
+        -webkit-text-stroke: 0.1px white;
+    }
+
+
+}
+
+@media(min-width:1024px) {
+
+    .esqueceu {
+
+
+        gap: 10px;
+        padding: 3rem;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgb(0, 0, 0);
+        width: 80%;
+        height: 80vh;
+        background-color: rgb(157 175 255 / 50%);
+        display: flex;
+
+
+    }
+
+    nav {
+
+        background-color: rgb(157 175 255 / 50%);
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 8px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 8px;
+        margin-bottom: 10px;
+
+    }
+
+    .img-esqueceu {
+
+        width: 80%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+
+
+    }
+
+    img {
+        max-width: 500px;
+        max-height: 500px;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-family: fantasy;
+        padding: 5px;
+        border-radius: 12px;
+        box-shadow: 1px 1px 5px rgb(139, 46, 245);
+        font-size: xx-large;
+        margin-bottom: 30px;
+        color: rgb(19, 1, 1);
+        -webkit-text-stroke: 0.1px white;
+    }
+
+    main {
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 5px;
+        border-radius: 12px;
+
+
+
+    }
+
+
+
+
+}
