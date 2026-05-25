@@ -79,7 +79,7 @@ h1 {
     font-size: xx-large;
     margin-bottom: 30px;
     color: rgb(19, 1, 1);
-    -webkit-text-stroke: 0.1px white;
+    -webkit-text-stroke: 0.5px white;
 }
 
 button {

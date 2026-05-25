@@ -14,7 +14,7 @@ h1 {
     font-size: xx-large;
     margin-bottom: 30px;
     color: rgb(19, 1, 1);
-    -webkit-text-stroke: 0.1px white;
+    -webkit-text-stroke: 0.5px white;
 }
 
 
@@ -46,6 +46,7 @@ img {
 
 body {
 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     width: 100%;
     background-color: rgb(68 62 88);
@@ -104,8 +105,12 @@ h3 {
     justify-content: center;
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(0, 0, 0);
-    -webkit-text-stroke: 0.5px red;
+    color: rgb(255, 255, 255);
+    
+}
+
+h2{
+    margin-bottom: 15px;
 }
 
 footer {

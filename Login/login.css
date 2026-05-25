@@ -4,12 +4,14 @@ a {
 }
 
 nav {
-    background-color: lightpink;
+    background-color: rgb(157 175 255 / 50%);
     display: flex;
+    justify-content: space-between;
     gap: 16px;
     padding: 8px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 8px;
+    margin-bottom: 10px;
     display: none;
 }
 
@@ -79,7 +81,7 @@ h1 {
     font-size: xx-large;
     margin-bottom: 30px;
     color: rgb(19, 1, 1);
-    -webkit-text-stroke: 0.1px white;
+    -webkit-text-stroke: 0.5px white;
 }
 
 button {
@@ -87,8 +89,7 @@ button {
 }
 
 @media (min-width:768px) {
-
-
+   
 
     #login {
         display: flex;
@@ -96,6 +97,8 @@ button {
 }
 
 @media(min-width:1024px) {
+
+
 
     #login {
         display: flex;

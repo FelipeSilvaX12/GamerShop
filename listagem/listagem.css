@@ -27,7 +27,7 @@ h1 {
     font-size: xx-large;
     margin-bottom: 30px;
     color: rgb(19, 1, 1);
-    -webkit-text-stroke: 0.1px white;
+    -webkit-text-stroke: 0.5px white;
 }
 
 nav {
@@ -85,11 +85,15 @@ article {
 h3 {
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(0, 0, 0);
-    -webkit-text-stroke: 0.5px red;
+    color: rgb(255, 255, 255);
+    
+}
+h2{
+    margin-bottom: 5px;
 }
 
 img {
+    margin-top: 5px;
     border-radius: 5px;
     width: 200px;
 }
